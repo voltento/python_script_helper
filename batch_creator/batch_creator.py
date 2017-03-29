@@ -8,8 +8,11 @@ import os
 py_ext = ".py"
 bat_ext = ".bat"
 
-scripts_path = "../"
+scripts_path = "../py_scripts/"
 out_path = "../batch/"
+
+if not os.path.exists(out_path):
+    os.makedirs(out_path)
 
 def getNumArgs(str):
     """
