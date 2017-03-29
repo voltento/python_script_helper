@@ -8,8 +8,8 @@ import os
 py_ext = ".py"
 bat_ext = ".bat"
 
-scripts_path = "D:/programms/scripts/"
-out_path = "D:/programms/scripts/batch/"
+scripts_path = "../"
+out_path = "../batch/"
 
 def getNumArgs(str):
     """
