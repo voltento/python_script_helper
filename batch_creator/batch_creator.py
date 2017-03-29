@@ -8,8 +8,8 @@ import os
 py_ext = ".py"
 bat_ext = ".bat"
 
-scripts_path = "../py_scripts/"
-out_path = "../batch/"
+scripts_path = os.getcwd() + "/../py_scripts/"
+out_path = os.getcwd() + "/../batch/"
 
 if not os.path.exists(out_path):
     os.makedirs(out_path)
