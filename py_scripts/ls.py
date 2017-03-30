@@ -15,6 +15,5 @@ if platform == "linux" or platform == "linux2":
 elif platform == "darwin":
     cmd = 'ls ' + cmd_args
 elif platform == "win32":
-    os.system("powershell set-executionpolicy remotesigned")
     cmd = 'powershell ls ' + cmd_args
 os.system(cmd)
