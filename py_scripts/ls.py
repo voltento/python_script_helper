@@ -1,5 +1,4 @@
 #platform=win
-#args_count = 9
 # ls
 
 from sys import platform

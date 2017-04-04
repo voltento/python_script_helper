@@ -1,4 +1,5 @@
-# args_count=9
+# Create file
+
 import sys
 
 print("len(sys.argv): "+str(len(sys.argv)))

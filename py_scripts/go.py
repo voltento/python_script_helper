@@ -1,4 +1,3 @@
-#args_count = 1
 # Opens addr from console in defoult brawser
 
 import sys

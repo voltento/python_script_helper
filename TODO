@@ -1,1 +1,2 @@
 Add platform-depended install.
+Use binary with absolute path like final result instead .batch

@@ -1,5 +1,4 @@
 #platform=win
-#args_count = 9
 #rm alias for windows
 
 import os, sys

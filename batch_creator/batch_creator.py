@@ -35,18 +35,13 @@ def createBatchWrp(py_script_file, out_batch_file):
     """
     python_interpret_command = "python "
     src = open(py_script_file, 'r')
-    numArgs = None
-    for line in src:
-        numArgs = getNumArgs(line)
-        if numArgs is not None:
-            break
     src.close()
     out = open(out_batch_file, 'w')
     out.write(python_interpret_command)
     out.write(py_script_file)
-    if numArgs is not None:
-        for i in range(0, numArgs):
-            out.write(" %"+str(i+1))
+    numArgs = 9
+    for i in range(1, numArgs+1):
+        out.write(" %"+str(i))
     out.close()
 
 def getPyScriptes(path):

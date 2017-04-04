@@ -1,4 +1,3 @@
-#args_count = 1
 # Start pydoc info by arg or pydoc server if args num equal 0
 
 import sys, os

@@ -1,5 +1,3 @@
-#args_count = 1
-
 import os, sys, shutil
 
 repDir = "e:/ws/navion-cartography"
