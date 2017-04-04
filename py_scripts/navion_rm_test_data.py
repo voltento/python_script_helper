@@ -1,9 +1,11 @@
-#!/usr/bin/env python
+#args_count = 1
 
-import os
-import shutil
+import os, sys, shutil
 
 repDir = "e:/ws/navion-cartography"
+
+if len(sys.argv) == 2:
+	repDir = sys.argv[1]
 
 def get_immediate_subdirectories(a_dir):
     return [name for name in os.listdir(a_dir)

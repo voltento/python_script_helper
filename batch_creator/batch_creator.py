@@ -2,7 +2,7 @@
 # File .py have to include the line '#args_count=num' where num is num of arguments
 #
 
-import re
+import re, sys, os
 import os
 
 py_ext = ".py"
