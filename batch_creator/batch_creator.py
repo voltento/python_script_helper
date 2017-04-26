@@ -8,7 +8,12 @@ import os
 py_ext = ".py"
 bat_ext = ".bat"
 
-scripts_path = os.getcwd() + "/../py_scripts/"
+scripts_path = os.getcwd()+"/"
+if len(sys.argv) == 2:
+    scripts_path += sys.argv[1] + "/"	
+else:
+    scripts_path += "/../py_scripts/"	
+
 out_path = os.getcwd() + "/../batch/"
 
 if not os.path.exists(out_path):

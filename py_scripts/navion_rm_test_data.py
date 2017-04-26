@@ -1,6 +1,6 @@
 import os, sys, shutil
 
-repDir = "e:/ws/navion-cartography"
+repDir = "C:/ws/navion-cartography"
 
 if len(sys.argv) == 2:
 	repDir = sys.argv[1]
