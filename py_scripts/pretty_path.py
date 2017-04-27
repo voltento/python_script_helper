@@ -1,4 +1,4 @@
 import clipboard
 import os
 
-clipboard.copy(clipboard.paste().replace('\\','/').replace('//','/'))
+clipboard.copy(clipboard.paste().replace('\\','/').replace('//','/').replace("L'", "'").replace('L"', '"'))
